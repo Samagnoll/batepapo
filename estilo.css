@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:wght@100;700&display=swap');
+
+body{
+    width: 375px;
+    overflow: scroll;
+    height: 450px;
+}
+
+.menu-topo-fixo{
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.icone{
+    margin-left: 210px;
+    font-size: 50px;
+}
+
+.corpo-da-pargina{
+    width: 395px;
+    height: 450px;
+    background-color:  #F3F3F3;
+    z-index: 0;
+
+}
+
+.escreva-aqui{
+    background:#FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    width: 389px;
+    height: 80px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 0;
+}
+
+.escreva-aqui::placeholder{
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 40px;
+}
+
+.icone-de-enviar{
+    margin-bottom: 20px;
+    margin-left: 300px;
+    font-size: 30px;
+    
+}
+
+.lista-de-conversas{
+    margin-top: 100px;
+    font-family: 'Roboto';
+}
+
+.entrada-saida{
+    width: 395px;
+    height: 40px;
+    left: 0px;
+    top: 106px;
+    background: #DCDCDC;
+}
+
+.conversa-publica{
+    width: 395px;
+    height: 40px;
+} 
+
+.conversa-reservada{
+    width: 395px;
+    height: 53px;
+    left: 0px;
+    top: 238px;
+    background: #FFDEDE;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    Line-height: 16.41px;
+}
+
+.horario{
+    color: 
+    #AAAAAA ;
+}
